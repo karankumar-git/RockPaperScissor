@@ -32,6 +32,7 @@ button:hover{
 h1{
     font-size: 3em;
     text-align: center;
+    
 }
 hr{
     width: 70%;
@@ -108,5 +109,37 @@ p{
     height:3em;
 
 }
-
+@media only screen and (max-width: 480px){
+    html{
+        font-size: 16px;
+    }
+    body{
+        width: 80%;
+        height: 100vh;
+    }
+    h1{
+        padding-top: 5%;
+        font-size: 2.5rem;
+    }
+    hr{
+        background-color: #111f4d;
+    }
+    .choiceimg>.rock,.choiceimg>.paper,.choiceimg>.scissor{
+        left:50px;
+    }
+    .stickers>.rock,.stickers>.paper,.stickers>.scissor{
+        position:absolute;
+        right:70px;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    #play{
+        left:80px;
+    }
+    .choice>button{
+        margin-left: 0px;
+        width: 70em;
+    }
+}
 
